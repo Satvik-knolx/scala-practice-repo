@@ -8,7 +8,7 @@ object CheckForInteger extends App {
 
   private def checkForNumber(): Boolean = {
     for (index <- 0 until inputFromUser.length()) {
-      if (48 > inputFromUser.charAt(index) || inputFromUser.charAt(index) <= 57) {
+      if (48 < inputFromUser.charAt(index) || inputFromUser.charAt(index) <= 57) {
         countVariable = countVariable + 1
       }
 
