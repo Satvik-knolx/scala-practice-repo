@@ -1,5 +1,7 @@
 package lectures.part1basics
 
+import scala.collection.IterableOnce.iterableOnceExtensionMethods
+
 
 object Functions extends App{
   def aFunction (parameterA: String, parameterB: Int): String = {
@@ -20,6 +22,16 @@ object Functions extends App{
 
   }
   println(aRepeatedFunction(" called Recursively",3))
+
+//  def squareListOne(list: List[Int]): List[Int] =
+//    list match {
+//      case Nil => ??
+//      case h :: t => ??
+//    }
+
+
+
+
   def anyOperation = ???
   //Recursion is the replacement for loops in scala
 
